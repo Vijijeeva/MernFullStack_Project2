@@ -1,0 +1,44 @@
+.register-page {
+  display: flex;
+  justify-content: center;  
+  height: 80vh;             
+  background: none; 
+}
+
+.register-box {
+  background: transparent;
+  border:1px solid black;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.register-box h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: black;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-box button:hover {
+  background: #333;
+}

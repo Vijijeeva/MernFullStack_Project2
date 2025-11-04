@@ -1,0 +1,79 @@
+.create-post-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140vh;
+  background: none;
+}
+
+.create-post-box {
+  background:transparent;
+  padding: 100px;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.create-post-box h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.create-post-box input[type="text"]
+{
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.create-post-box textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.create-post-box textarea {
+  min-height: 120px;
+}
+
+.title-label {
+  font-weight: bold;
+  font-size:20px;
+  color: black;
+  display: block;
+  margin-top: 10px;
+}
+
+.create-post-box input[type="file"] {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.preview img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.create-post-box button {
+  width: 100% ;
+  padding: 10px;
+  background: darkslategray;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-post-box button:hover {
+  background: darkred;
+}
