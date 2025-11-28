@@ -61,10 +61,13 @@
 #  Installation & Setup
 # backend
 cd backend
+
 node server.js
 
 # frontend
 cd frontend
+
 npm install
+
 npm start
 
