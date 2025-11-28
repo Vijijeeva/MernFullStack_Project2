@@ -1,5 +1,5 @@
 # MernFullStack_Project2
-Blogging Platform
+# ***Blogging Platform***
 # Overview
 * The Blogging Platform is a full-stack web application that allows users to create, edit, share, and interact with blog posts.
 * The goal of this project is to provide a simple and intuitive interface for writers, along with an interactive experience for readers through comments, likes, and tags.
